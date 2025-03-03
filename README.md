@@ -2,53 +2,22 @@
 
 # Power BI Data Analytics Project
 
-## Milestone Achievements
 
-### **1. Connecting to PostgreSQL Database**
-- Installed SQLTools extension in VSCode.
-- Successfully connected to the PostgreSQL database hosted on Microsoft Azure.
-
-### **2. Exploring the Database**
-- Retrieved and saved a list of tables in the database.
-- Extracted column names for each table and saved them in CSV files.
-
-### **3. Writing and Running SQL Queries**
-- Successfully ran SQL queries to answer key business questions:
-  - Total number of staff in UK stores.
-  - Month in 2022 with the highest revenue.
-  - Store type in Germany with the highest revenue for 2022.
-  - Created a view for store types including total sales, percentage of total sales, and order count.
-  - Product category with the highest profit in Wiltshire, UK for 2021.
-
-### **4. Saving and Uploading Results**
-- Exported SQL query results as CSV files.
-- Uploaded the SQL queries (`.sql` files) and CSV results to the GitHub repository.
-
-## **Files in this Repository**
-- `question_1.sql` – SQL query for staff count in UK stores.
-- `question_1.csv` – Query results.
-- `question_2.sql` – SQL query for highest revenue month in 2022.
-- `question_2.csv` – Query results.
+GlobalMart Sales Analysis
+Data Centralisation (ETL), Power BI Report, Visualisations & SQL queries
 
 
-### **5. Power BI Dashboard Enhancements**
-- Created slicers for filtering data.
-- Applied correct cross-filtering and interactions.
-- Designed navigation buttons with custom icons.
-- Integrated PostgreSQL data into Power BI reports.
+Executive Summary:
+Link to live dashboard in Power BI Service (link to be added)
 
----
+Using Power BI and Power Query, I pulled data from 6 different sources (including Azure Cloud) and created a relational database model and a Microsoft Power BI report to monitor sales performance across the organisation. The 4-page report is interactive and filterable, and uses historical data from 2010-2023 sales to track relevant KPIs and forecast their performance in the near future.
 
-### **Next Steps**
-- Perform further analysis based on new business questions.
-- Optimize queries for performance improvements.
-- Enhance Power BI visualizations using advanced DAX measures.
+I also created custom SQL queries to access the centralised Azure database from outside the Power BI environment. Using Python and OOP principles, I built a DatabaseConnector class to automate custom SQL queries when needed.
 
----
 
-## **How to Run the Queries**
-1. Open VSCode and connect to the database using SQLTools.
-2. Run the `.sql` files provided in this repository.
-3. Export results as CSV files
-4. Update Power BI reports with the latest data.
+## Milestone Achievements for PowerBi Report
+Power BI Report Preview
+This interactive and comprehensive Power BI report contains four pages, including an Executive Summary, a Customer Detail Page, a Product Detail Page and a Stores Map.
+
+
 
